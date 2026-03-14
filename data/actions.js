@@ -448,6 +448,72 @@ const personnageActions = {
             }
         ]
     }
+
+    // ==================== SAMBA / BRÉSIL ====================
+samba: {
+    decors: [
+        {
+            nom: "🎉 Carnaval de Rio",
+            description: "au cœur du carnaval de Rio, chars colorés, confettis, danseurs en plumes, ambiance festive"
+        },
+        {
+            nom: "🏖️ Plage de Copacabana",
+            description: "sur la plage de Copacabana au coucher du soleil, sable blanc, vagues, palmiers, musique brésilienne"
+        },
+        {
+            nom: "🇧🇷 Stade de samba",
+            description: "dans un stade de samba, gradins remplis de spectateurs, lumières colorées, rythme endiablé"
+        }
+    ],
+    actions: [
+        {
+            nom: "Samba sensuelle",
+            description: "dansant la samba, roulements de hanches rapides, plumes virevoltantes, sourire éclatant"
+        },
+        {
+            nom: "Battement de tambour",
+            description: "jouant des percussions sensuellement, frappant le tambour en ondulant du bassin"
+        },
+        {
+            nom: "Cérémonie sur la plage",
+            description: "sur la plage, elle danse pieds nus dans le sable, les bras levés vers le ciel"
+        }
+    ]
+},
+
+// ==================== FLAMENCO / ESPAGNE ====================
+flamenco: {
+    decors: [
+        {
+            nom: "💃 Tablao flamenco",
+            description: "dans un tablao authentique, ambiance andalouse, guitares en arrière-plan"
+        },
+        {
+            nom: "🏛️ Cour andalouse",
+            description: "dans une cour typique andalouse, fontaine, azulejos, lumière dorée"
+        },
+        {
+            nom: "🌃 Séville la nuit",
+            description: "dans une rue de Séville la nuit, lampions, balcons en fer forgé"
+        }
+    ],
+    actions: [
+        {
+            nom: "Flamenco passionné",
+            description: "frappant des pieds avec force, bras expressifs, regard intense"
+        },
+        {
+            nom: "Jeu de castagnettes",
+            description: "jouant des castagnettes tout en dansant, mouvements précis des poignets"
+        },
+        {
+            nom: "Robe tournoyante",
+            description: "faisant tournoyer sa robe à volants, poses théâtrales"
+        }
+    ]
+},
+
+// Ajoute aussi : oriental, geisha, bollywood, etc.
 };
 
 // Fonction pour obtenir un décor aléatoire pour un personnage
