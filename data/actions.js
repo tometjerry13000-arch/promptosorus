@@ -447,73 +447,167 @@ const personnageActions = {
                 description: "en conseil avec les anciens, posture de leader, regard perçant"
             }
         ]
-    }
+    },
 
     // ==================== SAMBA / BRÉSIL ====================
-samba: {
-    decors: [
-        {
-            nom: "🎉 Carnaval de Rio",
-            description: "au cœur du carnaval de Rio, chars colorés, confettis, danseurs en plumes, ambiance festive"
-        },
-        {
-            nom: "🏖️ Plage de Copacabana",
-            description: "sur la plage de Copacabana au coucher du soleil, sable blanc, vagues, palmiers, musique brésilienne"
-        },
-        {
-            nom: "🇧🇷 Stade de samba",
-            description: "dans un stade de samba, gradins remplis de spectateurs, lumières colorées, rythme endiablé"
-        }
-    ],
-    actions: [
-        {
-            nom: "Samba sensuelle",
-            description: "dansant la samba, roulements de hanches rapides, plumes virevoltantes, sourire éclatant"
-        },
-        {
-            nom: "Battement de tambour",
-            description: "jouant des percussions sensuellement, frappant le tambour en ondulant du bassin"
-        },
-        {
-            nom: "Cérémonie sur la plage",
-            description: "sur la plage, elle danse pieds nus dans le sable, les bras levés vers le ciel"
-        }
-    ]
-},
+    samba: {
+        decors: [
+            {
+                nom: "🎉 Carnaval de Rio",
+                description: "au cœur du carnaval de Rio, chars colorés, confettis, danseurs en plumes, ambiance festive"
+            },
+            {
+                nom: "🏖️ Plage de Copacabana",
+                description: "sur la plage de Copacabana au coucher du soleil, sable blanc, vagues, palmiers, musique brésilienne"
+            },
+            {
+                nom: "🇧🇷 Stade de samba",
+                description: "dans un stade de samba, gradins remplis de spectateurs, lumières colorées, rythme endiablé"
+            }
+        ],
+        actions: [
+            {
+                nom: "Samba sensuelle",
+                description: "dansant la samba, roulements de hanches rapides, plumes virevoltantes, sourire éclatant"
+            },
+            {
+                nom: "Battement de tambour",
+                description: "jouant des percussions sensuellement, frappant le tambour en ondulant du bassin"
+            },
+            {
+                nom: "Cérémonie sur la plage",
+                description: "sur la plage, elle danse pieds nus dans le sable, les bras levés vers le ciel"
+            }
+        ]
+    },
 
-// ==================== FLAMENCO / ESPAGNE ====================
-flamenco: {
-    decors: [
-        {
-            nom: "💃 Tablao flamenco",
-            description: "dans un tablao authentique, ambiance andalouse, guitares en arrière-plan"
-        },
-        {
-            nom: "🏛️ Cour andalouse",
-            description: "dans une cour typique andalouse, fontaine, azulejos, lumière dorée"
-        },
-        {
-            nom: "🌃 Séville la nuit",
-            description: "dans une rue de Séville la nuit, lampions, balcons en fer forgé"
-        }
-    ],
-    actions: [
-        {
-            nom: "Flamenco passionné",
-            description: "frappant des pieds avec force, bras expressifs, regard intense"
-        },
-        {
-            nom: "Jeu de castagnettes",
-            description: "jouant des castagnettes tout en dansant, mouvements précis des poignets"
-        },
-        {
-            nom: "Robe tournoyante",
-            description: "faisant tournoyer sa robe à volants, poses théâtrales"
-        }
-    ]
-},
+    // ==================== FLAMENCO / ESPAGNE ====================
+    flamenco: {
+        decors: [
+            {
+                nom: "💃 Tablao flamenco",
+                description: "dans un tablao authentique, ambiance andalouse, guitares en arrière-plan"
+            },
+            {
+                nom: "🏛️ Cour andalouse",
+                description: "dans une cour typique andalouse, fontaine, azulejos, lumière dorée"
+            },
+            {
+                nom: "🌃 Séville la nuit",
+                description: "dans une rue de Séville la nuit, lampions, balcons en fer forgé"
+            }
+        ],
+        actions: [
+            {
+                nom: "Flamenco passionné",
+                description: "frappant des pieds avec force, bras expressifs, regard intense"
+            },
+            {
+                nom: "Jeu de castagnettes",
+                description: "jouant des castagnettes tout en dansant, mouvements précis des poignets"
+            },
+            {
+                nom: "Robe tournoyante",
+                description: "faisant tournoyer sa robe à volants, poses théâtrales"
+            }
+        ]
+    },
 
-// Ajoute aussi : oriental, geisha, bollywood, etc.
+    // ==================== ORIENTAL / TURQUIE ====================
+    oriental: {
+        decors: [
+            {
+                nom: "🏛️ Palais Ottoman",
+                description: "dans un palais ottoman, colonnes de marbre, fontaines, tapis persans, lumière tamisée"
+            },
+            {
+                nom: "🛋️ Hamam traditionnel",
+                description: "dans un hamam traditionnel, vapeur, mosaïques, lumières douces"
+            },
+            {
+                nom: "🌃 Nuit d'Istanbul",
+                description: "dans une rue d'Istanbul la nuit, lanternes, épices, musique orientale"
+            }
+        ],
+        actions: [
+            {
+                nom: "Danse du voile",
+                description: "jouant avec un voile transparent, ondulations lentes du ventre"
+            },
+            {
+                nom: "Jeu de pièces",
+                description: "faisant tinter les pièces de sa ceinture en dansant, sourire mystérieux"
+            },
+            {
+                nom: "Mouvements de serpent",
+                description: "mouvements fluides des bras et du torse, regard hypnotique"
+            }
+        ]
+    },
+
+    // ==================== GEISHA / JAPON ====================
+    geisha: {
+        decors: [
+            {
+                nom: "🏯 Jardin japonais",
+                description: "dans un jardin japonais traditionnel, pont rouge, cerisiers en fleurs, étang à carpes"
+            },
+            {
+                nom: "🎋 Salon de thé",
+                description: "dans un salon de thé traditionnel, tatamis, paravents shoji, calligraphies"
+            },
+            {
+                nom: "🌸 Nuit de Gion",
+                description: "dans le quartier de Gion à Kyoto, lanternes, machiya anciennes, ambiance mystérieuse"
+            }
+        ],
+        actions: [
+            {
+                nom: "Danse du éventail",
+                description: "jouant avec un éventail, gestes précis et gracieux"
+            },
+            {
+                nom: "Cérémonie du thé",
+                description: "effectuant les gestes élégants de la cérémonie du thé, lenteur étudiée"
+            },
+            {
+                nom: "Révérence",
+                description: "s'inclinant gracieusement, dévoilant sa nuque, regard par-dessus l'épaule"
+            }
+        ]
+    },
+
+    // ==================== BOLLYWOOD / INDE ====================
+    bollywood: {
+        decors: [
+            {
+                nom: "🏰 Palais indien",
+                description: "dans un palais du Rajasthan, marbre blanc, jeux de miroirs, tentures colorées"
+            },
+            {
+                nom: "🌧️ Mousson",
+                description: "sous la pluie de mousson, flaques d'eau, lumières colorées, ambiance romantique"
+            },
+            {
+                nom: "🎬 Plateau Bollywood",
+                description: "sur un plateau de tournage bollywoodien, projecteurs, danseurs en arrière-plan"
+            }
+        ],
+        actions: [
+            {
+                nom: "Danse de fête",
+                description: "mouvements énergiques, rotations des poignets, sourire éclatant"
+            },
+            {
+                nom: "Expression dramatique",
+                description: "jeux de regards intenses, expressions faciales expressives"
+            },
+            {
+                nom: "Jeu de dupatta",
+                description: "jouant avec son dupatta (foulard), mouvements aériens"
+            }
+        ]
+    }
 };
 
 // Fonction pour obtenir un décor aléatoire pour un personnage
