@@ -371,7 +371,6 @@ zorro: {
             "signature Z tracée avec l'épée en tournoyant",
             "cambrures spectaculaires, cape flottant au vent"
         ]
-    }
 },
     vampire: {
         type: "vampire",
