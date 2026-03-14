@@ -343,6 +343,36 @@ const countries = {
             part2: ["danse avec les ailes", "vols planés", "jeux avec la poudre de fée"]
         }
     },
+
+
+
+    // ==================== ZORRO ====================
+zorro: {
+    type: "zorro",
+    name: "⚔️ Zorro",
+    dance: "Danse de l'Épée",
+    palmColors: { left: "#000000", right: "#ff0000" },
+    finalOutfit: {
+        description: "costume emblématique de Zorro revisité",
+        colors: ["noir", "rouge", "argent"],
+        elements: ["cape noire fluide", "chapeau de justicier", "masque noir", "chemise blanche", "pantalon noir"],
+        accessories: ["épée", "fouet", "ceinturon", "gants en cuir", "bottes noires"]
+    },
+    hairFluo: ["noir", "argent", "rouge"],
+    background: "pueblo californien la nuit, mission espagnole, toits de tuiles, lune argentée",
+    danceMoves: {
+        part1: [
+            "mouvements d'escrime sensuels, l'épée traçant des Z dans l'air",
+            "jeux de cape dramatiques, l'enroulant autour d'elle",
+            "poses de justicière, regard déterminé"
+        ],
+        part2: [
+            "combat chorégraphié contre des ombres",
+            "signature Z tracée avec l'épée en tournoyant",
+            "cambrures spectaculaires, cape flottant au vent"
+        ]
+    }
+},
     vampire: {
         type: "vampire",
         name: "🧛 Vampire",
