@@ -32,7 +32,37 @@ const personnageActions = {
             }
         ]
     },
-
+// ==================== ZORRO ====================
+zorro: {
+    decors: [
+        {
+            nom: "🏛️ Mission espagnole",
+            description: "devant une mission espagnole sous la lune, arches blanches, clocher, ambiance mystérieuse"
+        },
+        {
+            nom: "🏘️ Toits du pueblo",
+            description: "sur les toits du pueblo la nuit, tuiles rouges, cheminées fumantes, clair de lune"
+        },
+        {
+            nom: "🌵 Canyon solitaire",
+            description: "dans un canyon rocheux au clair de lune, cactus, ombres allongées, silence nocturne"
+        }
+    ],
+    actions: [
+        {
+            nom: "Signature Z",
+            description: "traçant un Z en l'air avec son épée, mouvements rapides et précis, cape flottante"
+        },
+        {
+            nom: "Jeu de cape",
+            description: "enroulant et déroulant sa cape sensuellement, cachant et révélant son corps"
+        },
+        {
+            nom: "Combat d'escrime",
+            description: "combat d'escrime chorégraphié, passes d'armes sensuelles, corps à corps imaginaire"
+        }
+    ]
+},
     // ==================== SPACESHIP (VAISSEAU SPATIAL) ====================
     spaceship: {
         decors: [
