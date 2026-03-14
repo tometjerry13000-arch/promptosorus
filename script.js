@@ -154,7 +154,7 @@ class PromptGenerator {
                 customText: document.getElementById('customText')?.value || ''
             },
             
-            // DÉCOR PERSONNALISÉ
+            // NOUVEAU : DÉCOR PERSONNALISÉ
             customDecor: {
                 enabled: document.getElementById('enableCustomDecor')?.checked || false,
                 text: document.getElementById('customDecorText')?.value || '',
@@ -818,20 +818,7 @@ document.addEventListener('DOMContentLoaded', function() {
         });
     }
     
-    // ✅ Gestionnaire pour l'intensité de séduction
-    const seductionLevel = document.getElementById('seductionLevel');
-    const seductionValue = document.getElementById('seductionValue');
-    if (seductionLevel && seductionValue) {
-        // Initialisation
-        seductionValue.textContent = seductionLevel.value + '/10';
-        
-        // Mise à jour en temps réel
-        seductionLevel.addEventListener('input', function() {
-            seductionValue.textContent = this.value + '/10';
-        });
-    }
-    
-    // Gestionnaire pour les gestes (bisous et viens)
+    // Gestionnaire pour les gestes
     const bisousCheckbox = document.getElementById('gesteBisous');
     const bisousCount = document.getElementById('bisousCount');
     if (bisousCheckbox && bisousCount) {
