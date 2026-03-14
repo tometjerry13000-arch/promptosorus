@@ -62,7 +62,7 @@ zorro: {
             description: "combat d'escrime chorégraphié, passes d'armes sensuelles, corps à corps imaginaire"
         }
     ]
-},
+    },
     // ==================== SPACESHIP (VAISSEAU SPATIAL) ====================
     spaceship: {
         decors: [
