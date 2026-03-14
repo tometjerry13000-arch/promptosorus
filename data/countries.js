@@ -1,5 +1,5 @@
 // data/countries.js
-// VERSION ULTIME - 55 PERSONNAGES AVEC TYPES POUR ACTIONS/DÉCORS
+// VERSION CORRIGÉE - 55 PERSONNAGES AVEC TOUTES LES VIRGULES
 
 const countries = {
     // ==================== PAYS TERRESTRES (11) ====================
@@ -21,6 +21,7 @@ const countries = {
             part2: ["zapateados puissants", "braceos majestueux", "jeux avec les volants", "tours complets"]
         }
     },
+    
     turkey: {
         type: "oriental",
         name: "🇹🇷 Turquie",
@@ -49,6 +50,7 @@ const countries = {
             ]
         }
     },
+    
     mexico: {
         type: "mexicain",
         name: "🇲🇽 Mexique",
@@ -77,6 +79,7 @@ const countries = {
             ]
         }
     },
+    
     cuba: {
         type: "cubain",
         name: "🇨🇺 Cuba",
@@ -105,6 +108,7 @@ const countries = {
             ]
         }
     },
+    
     brazil: {
         type: "samba",
         name: "🇧🇷 Brésil",
@@ -123,6 +127,7 @@ const countries = {
             part2: ["roulements de hanches ultra-rapides", "vibrations de fessiers", "jeux avec les plumes"]
         }
     },
+    
     morocco: {
         type: "oriental",
         name: "🇲🇦 Maroc",
@@ -141,6 +146,7 @@ const countries = {
             part2: ["ondulations profondes", "shimmies rapides", "jeux avec les fentes du caftan"]
         }
     },
+    
     senegal: {
         type: "default",
         name: "🇸🇳 Sénégal",
@@ -159,6 +165,7 @@ const countries = {
             part2: ["vibrations intenses d'épaules", "secousses de fessiers", "jeux avec les tresses"]
         }
     },
+    
     japan: {
         type: "geisha",
         name: "🇯🇵 Japon",
@@ -177,6 +184,7 @@ const countries = {
             part2: ["mouvements d'éventail", "découverte de la nuque", "jeux avec le kimono"]
         }
     },
+    
     india: {
         type: "bollywood",
         name: "🇮🇳 Inde",
@@ -195,6 +203,7 @@ const countries = {
             part2: ["rotations complètes", "jeux avec les volants", "expressions faciales expressives"]
         }
     },
+    
     china: {
         type: "default",
         name: "🇨🇳 Chine",
@@ -213,6 +222,7 @@ const countries = {
             part2: ["jeux d'éventail", "mouvements de manches longues", "tours gracieux"]
         }
     },
+    
     greece: {
         type: "grec",
         name: "🇬🇷 Grèce",
@@ -251,6 +261,7 @@ const countries = {
             part2: ["danse sous-marine accélérée", "jeux avec les bulles lumineuses", "mouvements de tentacules", "apnée sensuelle"]
         }
     },
+    
     sun: {
         type: "superman",
         name: "☀️ Soleil",
@@ -269,6 +280,7 @@ const countries = {
             part2: ["danse explosive", "mouvements de rayons", "éruptions d'énergie"]
         }
     },
+    
     alien: {
         type: "spaceship",
         name: "👽 Extraterrestre",
@@ -287,6 +299,7 @@ const countries = {
             part2: ["mouvements fluides comme l'apesanteur", "vibrations cosmiques", "jeux avec la lumière"]
         }
     },
+    
     uranus: {
         type: "siren",
         name: "💙 Uranus",
@@ -305,6 +318,7 @@ const countries = {
             part2: ["danse de glace", "éclats de cristal"]
         }
     },
+    
     mercury: {
         type: "superman",
         name: "☄️ Mercure",
@@ -343,6 +357,7 @@ const countries = {
             part2: ["danse avec les ailes", "vols planés", "jeux avec la poudre de fée"]
         }
     },
+    
     vampire: {
         type: "vampire",
         name: "🧛 Vampire",
@@ -361,6 +376,7 @@ const countries = {
             part2: ["danse avec la cape", "attaques gracieuses", "poses de prédatrice"]
         }
     },
+    
     elf: {
         type: "elf",
         name: "🧝 Elfe",
@@ -379,6 +395,7 @@ const countries = {
             part2: ["danse enchantée", "jeux avec la magie des bois"]
         }
     },
+    
     darkelf: {
         type: "elf",
         name: "⚡ Elfe Noir",
@@ -398,47 +415,47 @@ const countries = {
         }
     },
 
- // ==================== ZORRO SEXY ====================
-zorro: {
-    type: "zorro",
-    name: "⚔️ Zorro",
-    dance: "Danse de l'Épée",
-    palmColors: { left: "#000000", right: "#ff0000" },
-    finalOutfit: {
-        description: "costume de Zorro ultra-sexy revisité",
-        colors: ["noir profond", "rouge passion", "argent"],
-        elements: [
-            "cape noire fluide en satin qui dévoile ses épaules",
-            "corset en cuir noir très serré avec lacets rouges",
-            "shorty très court en cuir noir",
-            "cuissardes en cuir noir à talons aiguilles",
-            "gants longs en cuir noir",
-            "chemisier blanc transparent partiellement ouvert"
-        ],
-        accessories: [
-            "masque noir sensuel",
-            "chapeau de justicier incliné",
-            "épée fine décorative",
-            "fouet en cuir",
-            "ceinturon à breloques argentées",
-            "boucles d'oreilles créoles argentées"
-        ]
+    // ==================== ZORRO SEXY ====================
+    zorro: {
+        type: "zorro",
+        name: "⚔️ Zorro",
+        dance: "Danse de l'Épée",
+        palmColors: { left: "#000000", right: "#ff0000" },
+        finalOutfit: {
+            description: "costume de Zorro ultra-sexy revisité",
+            colors: ["noir profond", "rouge passion", "argent"],
+            elements: [
+                "cape noire fluide en satin qui dévoile ses épaules",
+                "corset en cuir noir très serré avec lacets rouges",
+                "shorty très court en cuir noir",
+                "cuissardes en cuir noir à talons aiguilles",
+                "gants longs en cuir noir",
+                "chemisier blanc transparent partiellement ouvert"
+            ],
+            accessories: [
+                "masque noir sensuel",
+                "chapeau de justicier incliné",
+                "épée fine décorative",
+                "fouet en cuir",
+                "ceinturon à breloques argentées",
+                "boucles d'oreilles créoles argentées"
+            ]
+        },
+        hairFluo: ["noir", "rouge", "argent"],
+        background: "pueblo californien la nuit, clair de lune, ambiance mystérieuse et sensuelle",
+        danceMoves: {
+            part1: [
+                "mouvements d'escrime sensuels, l'épée glissant le long de son corps",
+                "jeux de cape suggestifs, dévoilant ses jambes",
+                "poses de justicière cambrée, regard langoureux"
+            ],
+            part2: [
+                "combat chorégraphié sensuel contre des ombres",
+                "signature Z tracée avec l'épée en ondulant du bassin",
+                "cambrures spectaculaires, cape rejetée d'une épaule"
+            ]
+        }
     },
-    hairFluo: ["noir", "rouge", "argent"],
-    background: "pueblo californien la nuit, clair de lune, ambiance mystérieuse et sensuelle",
-    danceMoves: {
-        part1: [
-            "mouvements d'escrime sensuels, l'épée glissant le long de son corps",
-            "jeux de cape suggestifs, dévoilant ses jambes",
-            "poses de justicière cambrée, regard langoureux"
-        ],
-        part2: [
-            "combat chorégraphié sensuel contre des ombres",
-            "signature Z tracée avec l'épée en ondulant du bassin",
-            "cambrures spectaculaires, cape rejetée d'une épaule"
-        ]
-    }
-},
 
     // ==================== SORCIÈRES (2) ====================
     witchreal: {
@@ -459,6 +476,7 @@ zorro: {
             part2: ["danse ensorcelante", "jeux avec la cape"]
         }
     },
+    
     witchenchant: {
         type: "default",
         name: "🧙 Sorcière Envoûteuse",
@@ -497,6 +515,7 @@ zorro: {
             part2: ["danse guerrière", "enchaînements dynamiques"]
         }
     },
+    
     dcreal: {
         type: "superman",
         name: "⚡ DC",
@@ -515,6 +534,7 @@ zorro: {
             part2: ["danse de guerrière", "enchaînements dynamiques"]
         }
     },
+    
     cosmicreal: {
         type: "superman",
         name: "🌌 Cosmique",
@@ -533,6 +553,7 @@ zorro: {
             part2: ["danse d'énergie cosmique", "poses de gardienne de l'univers"]
         }
     },
+    
     warriorcosmic: {
         type: "superman",
         name: "⚔️ Guerrière Cosmique",
@@ -571,6 +592,7 @@ zorro: {
             part2: ["danse guerrière sacrée", "jeux avec la lance"]
         }
     },
+    
     valkyrie: {
         type: "default",
         name: "⚔️ Valkyrie",
@@ -609,6 +631,7 @@ zorro: {
             part2: ["danse dynamique d'anime", "transformations stylisées"]
         }
     },
+    
     cartoonclassic: {
         type: "default",
         name: "🎬 Cartoon",
@@ -627,6 +650,7 @@ zorro: {
             part2: ["danse joyeuse", "sauts légers"]
         }
     },
+    
     comicshero: {
         type: "superman",
         name: "💥 Comics",
@@ -645,6 +669,7 @@ zorro: {
             part2: ["combat chorégraphié", "vols stylisés"]
         }
     },
+    
     sketchstyle: {
         type: "default",
         name: "✏️ Esquisse",
@@ -683,6 +708,7 @@ zorro: {
             part2: ["danse festive", "jeux avec les cadeaux"]
         }
     },
+    
     elfsexy: {
         type: "elf",
         name: "🧝 Lutin",
@@ -701,6 +727,7 @@ zorro: {
             part2: ["danse malicieuse", "jeux avec les grelots"]
         }
     },
+    
     cowgirl: {
         type: "cowgirl",
         name: "🤠 Cowgirl",
@@ -719,6 +746,7 @@ zorro: {
             part2: ["danse country", "jeux avec le lasso"]
         }
     },
+    
     pirate: {
         type: "pirate",
         name: "🏴‍☠️ Pirate",
@@ -737,6 +765,7 @@ zorro: {
             part2: ["danse de taverne", "jeux avec le sabre"]
         }
     },
+    
     princess: {
         type: "princess",
         name: "👸 Princesse",
@@ -755,6 +784,7 @@ zorro: {
             part2: ["valse élégante", "tours de princesse"]
         }
     },
+    
     siren: {
         type: "siren",
         name: "🧜 Sirène",
@@ -773,6 +803,7 @@ zorro: {
             part2: ["danse sous-marine", "jeux avec les vagues"]
         }
     },
+    
     venetian: {
         type: "default",
         name: "🎭 Masqué",
@@ -911,6 +942,7 @@ zorro: {
             part2: ["danse western 2.0", "jeux avec le lasso laser"]
         }
     },
+    
     snowelf: {
         type: "elf",
         name: "❄️ Elfe des Neiges",
@@ -929,6 +961,7 @@ zorro: {
             part2: ["danse des flocons", "tourbillon hivernal"]
         }
     },
+    
     djinn: {
         type: "default",
         name: "🧞 Djinn",
@@ -947,6 +980,7 @@ zorro: {
             part2: ["danse d'exaucement", "jeux avec la fumée magique"]
         }
     },
+    
     villainess: {
         type: "default",
         name: "🦹 Vilaine",
@@ -965,6 +999,7 @@ zorro: {
             part2: ["danse de la tentation", "jeux avec le fouet"]
         }
     },
+    
     hawaiian: {
         type: "default",
         name: "🌺 Tahitienne",
@@ -983,6 +1018,7 @@ zorro: {
             part2: ["danse du paradis", "jeux avec les fleurs"]
         }
     },
+    
     scientist: {
         type: "default",
         name: "🧪 Scientifique",
@@ -1001,6 +1037,7 @@ zorro: {
             part2: ["danse de la découverte", "jeux avec les éprouvettes"]
         }
     },
+    
     painter: {
         type: "default",
         name: "🎨 Peintre",
@@ -1019,6 +1056,7 @@ zorro: {
             part2: ["danse des couleurs", "jeux avec les pinceaux"]
         }
     },
+    
     archer: {
         type: "default",
         name: "🏹 Archère",
@@ -1037,6 +1075,7 @@ zorro: {
             part2: ["danse de la chasseresse", "jeux avec l'arc"]
         }
     },
+    
     steampunk: {
         type: "default",
         name: "⚙️ Steampunk",
@@ -1055,6 +1094,7 @@ zorro: {
             part2: ["danse des engrenages", "jeux avec les montres"]
         }
     },
+    
     avatar: {
         type: "avatar",
         name: "🔵 AVATAR NA'VI",
@@ -1094,6 +1134,7 @@ zorro: {
             ]
         }
     },
+    
     avatarwarrior: {
         type: "avatarwarrior",
         name: "⚔️ AVATAR GUERRIER",
@@ -1124,6 +1165,7 @@ zorro: {
             part2: ["danse guerrière", "enchaînements avec l'arc"]
         }
     },
+    
     avatarchief: {
         type: "avatarchief",
         name: "👑 AVATAR CHEF",
@@ -1154,6 +1196,7 @@ zorro: {
             part2: ["danse cérémonielle", "bénédiction du clan"]
         }
     },
+    
     circus: {
         type: "default",
         name: "🎪 Acrobate",
@@ -1173,3 +1216,6 @@ zorro: {
         }
     }
 };
+
+// Vérification du nombre de personnages
+console.log(`✅ countries.js chargé avec ${Object.keys(countries).length} personnages`);
