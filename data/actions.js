@@ -32,37 +32,7 @@ const personnageActions = {
             }
         ]
     },
-// ==================== ZORRO ====================
-zorro: {
-    decors: [
-        {
-            nom: "🏛️ Mission espagnole",
-            description: "devant une mission espagnole sous la lune, arches blanches, clocher, ambiance mystérieuse"
-        },
-        {
-            nom: "🏘️ Toits du pueblo",
-            description: "sur les toits du pueblo la nuit, tuiles rouges, cheminées fumantes, clair de lune"
-        },
-        {
-            nom: "🌵 Canyon solitaire",
-            description: "dans un canyon rocheux au clair de lune, cactus, ombres allongées, silence nocturne"
-        }
-    ],
-    actions: [
-        {
-            nom: "Signature Z",
-            description: "traçant un Z en l'air avec son épée, mouvements rapides et précis, cape flottante"
-        },
-        {
-            nom: "Jeu de cape",
-            description: "enroulant et déroulant sa cape sensuellement, cachant et révélant son corps"
-        },
-        {
-            nom: "Combat d'escrime",
-            description: "combat d'escrime chorégraphié, passes d'armes sensuelles, corps à corps imaginaire"
-        }
-    ]
-    },
+
     // ==================== SPACESHIP (VAISSEAU SPATIAL) ====================
     spaceship: {
         decors: [
@@ -635,6 +605,134 @@ zorro: {
             {
                 nom: "Jeu de dupatta",
                 description: "jouant avec son dupatta (foulard), mouvements aériens"
+            }
+        ]
+    },
+
+    // ==================== MEXICAIN / MEXIQUE ====================
+    mexicain: {
+        decors: [
+            {
+                nom: "🎊 Fête mexicaine",
+                description: "lors d'une fête mexicaine, papel picado, lumières colorées, mariachis en arrière-plan"
+            },
+            {
+                nom: "🏜️ Désert mexicain",
+                description: "dans le désert mexicain, cactus, soleil couchant, ambiance chaleureuse"
+            },
+            {
+                nom: "💀 Jour des Morts",
+                description: "lors du Jour des Morts, autels décorés, soucis orange, bougies"
+            }
+        ],
+        actions: [
+            {
+                nom: "Danse folklorique",
+                description: "tournoyant avec sa jupe colorée, mouvements amples et fiers"
+            },
+            {
+                nom: "Jeu de rubans",
+                description: "jouant avec les rubans dans ses cheveux, sourire éclatant"
+            },
+            {
+                nom: "Fiesta",
+                description: "dansant avec énergie, claquant des doigts au rythme de la musique"
+            }
+        ]
+    },
+
+    // ==================== CUBAIN / SALSA ====================
+    cubain: {
+        decors: [
+            {
+                nom: "🇨🇺 Rue de La Havane",
+                description: "dans une rue colorée de La Havane, vieilles voitures, façades pastel"
+            },
+            {
+                nom: "🎵 Club de salsa",
+                description: "dans un club de salsa, lumières tamisées, danseurs passionnés"
+            },
+            {
+                nom: "🌊 Malecón",
+                description: "sur le Malecón au coucher du soleil, vagues, ambiance romantique"
+            }
+        ],
+        actions: [
+            {
+                nom: "Salsa passionnée",
+                description: "mouvements rapides des hanches, jeux de jambes complexes"
+            },
+            {
+                nom: "Danse en couple",
+                description: "tournoyant avec un partenaire imaginaire, poses sensuelles"
+            },
+            {
+                nom: "Rythme endiablé",
+                description: "déhanchés explosifs, sourire charmeur"
+            }
+        ]
+    },
+
+    // ==================== GREC / ANTIQUE ====================
+    grec: {
+        decors: [
+            {
+                nom: "🏛️ Temple grec",
+                description: "dans un temple grec antique, colonnes de marbre, mer en arrière-plan"
+            },
+            {
+                nom: "🏝️ Île grecque",
+                description: "sur une île grecque, maisons blanches, coupoles bleues, mer Égée"
+            },
+            {
+                nom: "⚱️ Amphithéâtre",
+                description: "dans un amphithéâtre antique, gradins de pierre, vue sur la mer"
+            }
+        ],
+        actions: [
+            {
+                nom: "Danse antique",
+                description: "mouvements lents et majestueux, drapés flottants"
+            },
+            {
+                nom: "Offrande",
+                description: "faisant une offrande aux dieux, gestes gracieux"
+            },
+            {
+                nom: "Célébration",
+                description: "dansant en cercle, bras levés, expression extatique"
+            }
+        ]
+    },
+
+    // ==================== ÉGYPTIEN ====================
+    egyptien: {
+        decors: [
+            {
+                nom: "🔺 Pyramides",
+                description: "devant les pyramides de Gizeh, coucher de soleil, sable doré"
+            },
+            {
+                nom: "🏛️ Temple égyptien",
+                description: "dans un temple égyptien, colonnes hiéroglyphiques, torches"
+            },
+            {
+                nom: "🌌 Désert égyptien",
+                description: "dans le désert égyptien la nuit, ciel étoilé, feu de camp"
+            }
+        ],
+        actions: [
+            {
+                nom: "Danse du Nil",
+                description: "mouvements fluides inspirés des hiéroglyphes"
+            },
+            {
+                nom: "Rituel sacré",
+                description: "gestes mystiques, offrandes aux dieux"
+            },
+            {
+                nom: "Cléopâtre",
+                description: "pose majestueuse, regard de reine"
             }
         ]
     }
