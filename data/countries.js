@@ -346,7 +346,7 @@ const countries = {
 
 
 
-    // ==================== ZORRO ====================
+// ==================== ZORRO ====================
 zorro: {
     type: "zorro",
     name: "⚔️ Zorro",
@@ -371,7 +371,8 @@ zorro: {
             "signature Z tracée avec l'épée en tournoyant",
             "cambrures spectaculaires, cape flottant au vent"
         ]
-},
+    }
+}, // <- VIRGULE AJOUTÉE ICI !
     vampire: {
         type: "vampire",
         name: "🧛 Vampire",
