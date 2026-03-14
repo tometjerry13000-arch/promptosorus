@@ -106,7 +106,7 @@ const countries = {
         }
     },
     brazil: {
-        type: "default",
+    type: "samba",  // au lieu de "default"
         name: "🇧🇷 Brésil",
         dance: "Samba",
         palmColors: { left: "#00ff00", right: "#ffff00" },
