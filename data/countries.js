@@ -1,10 +1,10 @@
 // data/countries.js
-// VERSION ULTIME - 54 PERSONNAGES AVEC TYPES POUR ACTIONS/DÉCORS
+// VERSION ULTIME - 55 PERSONNAGES AVEC TYPES POUR ACTIONS/DÉCORS
 
 const countries = {
     // ==================== PAYS TERRESTRES (11) ====================
     spain: {
-        type: "default",
+        type: "flamenco",
         name: "🇪🇸 Espagne",
         dance: "Flamenco",
         palmColors: { left: "#ff0000", right: "#000000" },
@@ -22,7 +22,7 @@ const countries = {
         }
     },
     turkey: {
-        type: "default",
+        type: "oriental",
         name: "🇹🇷 Turquie",
         dance: "Danse du Ventre / Oriental",
         palmColors: { left: "#e11d48", right: "#f59e0b" },
@@ -50,7 +50,7 @@ const countries = {
         }
     },
     mexico: {
-        type: "default",
+        type: "mexicain",
         name: "🇲🇽 Mexique",
         dance: "Jarabe Tapatío / Folklorique",
         palmColors: { left: "#ef4444", right: "#22c55e" },
@@ -78,7 +78,7 @@ const countries = {
         }
     },
     cuba: {
-        type: "default",
+        type: "cubain",
         name: "🇨🇺 Cuba",
         dance: "Salsa / Casino Cubain",
         palmColors: { left: "#f97316", right: "#3b82f6" },
@@ -106,7 +106,7 @@ const countries = {
         }
     },
     brazil: {
-    type: "samba",  // au lieu de "default"
+        type: "samba",
         name: "🇧🇷 Brésil",
         dance: "Samba",
         palmColors: { left: "#00ff00", right: "#ffff00" },
@@ -124,7 +124,7 @@ const countries = {
         }
     },
     morocco: {
-        type: "default",
+        type: "oriental",
         name: "🇲🇦 Maroc",
         dance: "Danse Orientale",
         palmColors: { left: "#0000ff", right: "#ffd700" },
@@ -160,7 +160,7 @@ const countries = {
         }
     },
     japan: {
-        type: "default",
+        type: "geisha",
         name: "🇯🇵 Japon",
         dance: "Geisha Moderne",
         palmColors: { left: "#ff0000", right: "#ffd700" },
@@ -178,7 +178,7 @@ const countries = {
         }
     },
     india: {
-        type: "default",
+        type: "bollywood",
         name: "🇮🇳 Inde",
         dance: "Bollywood",
         palmColors: { left: "#ff6600", right: "#ff00ff" },
@@ -214,7 +214,7 @@ const countries = {
         }
     },
     greece: {
-        type: "default",
+        type: "grec",
         name: "🇬🇷 Grèce",
         dance: "Danse Antique",
         palmColors: { left: "#0000ff", right: "#ffffff" },
@@ -234,7 +234,7 @@ const countries = {
 
     // ==================== PLANÈTES (5) ====================
     neptune: {
-        type: "default",
+        type: "siren",
         name: "🌊 Neptune",
         dance: "Danse des Abysses",
         palmColors: { left: "#1e3c72", right: "#2a5298" },
@@ -252,7 +252,7 @@ const countries = {
         }
     },
     sun: {
-        type: "default",
+        type: "superman",
         name: "☀️ Soleil",
         dance: "Danse Stellaire",
         palmColors: { left: "#ff0", right: "#ff8c00" },
@@ -270,7 +270,7 @@ const countries = {
         }
     },
     alien: {
-        type: "default",
+        type: "spaceship",
         name: "👽 Extraterrestre",
         dance: "Danse Galactique",
         palmColors: { left: "#00ffff", right: "#ff00ff" },
@@ -288,7 +288,7 @@ const countries = {
         }
     },
     uranus: {
-        type: "default",
+        type: "siren",
         name: "💙 Uranus",
         dance: "Danse Glacée",
         palmColors: { left: "#7fffd4", right: "#b0e0e6" },
@@ -306,7 +306,7 @@ const countries = {
         }
     },
     mercury: {
-        type: "default",
+        type: "superman",
         name: "☄️ Mercure",
         dance: "Danse du Soleil",
         palmColors: { left: "#ff8c00", right: "#ff4500" },
@@ -343,36 +343,6 @@ const countries = {
             part2: ["danse avec les ailes", "vols planés", "jeux avec la poudre de fée"]
         }
     },
-
-
-
-// ==================== ZORRO ====================
-zorro: {
-    type: "zorro",
-    name: "⚔️ Zorro",
-    dance: "Danse de l'Épée",
-    palmColors: { left: "#000000", right: "#ff0000" },
-    finalOutfit: {
-        description: "costume emblématique de Zorro revisité",
-        colors: ["noir", "rouge", "argent"],
-        elements: ["cape noire fluide", "chapeau de justicier", "masque noir", "chemise blanche", "pantalon noir"],
-        accessories: ["épée", "fouet", "ceinturon", "gants en cuir", "bottes noires"]
-    },
-    hairFluo: ["noir", "argent", "rouge"],
-    background: "pueblo californien la nuit, mission espagnole, toits de tuiles, lune argentée",
-    danceMoves: {
-        part1: [
-            "mouvements d'escrime sensuels, l'épée traçant des Z dans l'air",
-            "jeux de cape dramatiques, l'enroulant autour d'elle",
-            "poses de justicière, regard déterminé"
-        ],
-        part2: [
-            "combat chorégraphié contre des ombres",
-            "signature Z tracée avec l'épée en tournoyant",
-            "cambrures spectaculaires, cape flottant au vent"
-        ]
-    }
-}, // <- VIRGULE AJOUTÉE ICI !
     vampire: {
         type: "vampire",
         name: "🧛 Vampire",
@@ -425,6 +395,34 @@ zorro: {
         danceMoves: {
             part1: ["mouvements félins et mystérieux", "poses d'ombre"],
             part2: ["danse des ténèbres", "jeux avec l'obscurité"]
+        }
+    },
+
+    // ==================== ZORRO ====================
+    zorro: {
+        type: "zorro",
+        name: "⚔️ Zorro",
+        dance: "Danse de l'Épée",
+        palmColors: { left: "#000000", right: "#ff0000" },
+        finalOutfit: {
+            description: "costume emblématique de Zorro revisité",
+            colors: ["noir", "rouge", "argent"],
+            elements: ["cape noire fluide", "chapeau de justicier", "masque noir", "chemise blanche", "pantalon noir"],
+            accessories: ["épée", "fouet", "ceinturon", "gants en cuir", "bottes noires"]
+        },
+        hairFluo: ["noir", "argent", "rouge"],
+        background: "pueblo californien la nuit, mission espagnole, toits de tuiles, lune argentée",
+        danceMoves: {
+            part1: [
+                "mouvements d'escrime sensuels, l'épée traçant des Z dans l'air",
+                "jeux de cape dramatiques, l'enroulant autour d'elle",
+                "poses de justicière, regard déterminé"
+            ],
+            part2: [
+                "combat chorégraphié contre des ombres",
+                "signature Z tracée avec l'épée en tournoyant",
+                "cambrures spectaculaires, cape flottant au vent"
+            ]
         }
     },
 
@@ -1044,7 +1042,7 @@ zorro: {
         }
     },
     avatar: {
-        type: "avatar",  // 👈 CORRIGÉ !
+        type: "avatar",
         name: "🔵 AVATAR NA'VI",
         dance: "Danse de Pandora",
         palmColors: { left: "#2a6f8f", right: "#5b9ab3" },
@@ -1083,7 +1081,7 @@ zorro: {
         }
     },
     avatarwarrior: {
-        type: "avatarwarrior",  // 👈 CORRIGÉ !
+        type: "avatarwarrior",
         name: "⚔️ AVATAR GUERRIER",
         dance: "Danse de Combat",
         palmColors: { left: "#1e4a6b", right: "#8b5a2b" },
@@ -1113,7 +1111,7 @@ zorro: {
         }
     },
     avatarchief: {
-        type: "avatarchief",  // 👈 CORRIGÉ !
+        type: "avatarchief",
         name: "👑 AVATAR CHEF",
         dance: "Danse du Chef",
         palmColors: { left: "#2a6f8f", right: "#d4af37" },
